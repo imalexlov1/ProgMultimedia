@@ -4,11 +4,11 @@
 [ext_resource type="Script" uid="uid://bb6rs76mtrmpx" path="res://raquette/Control Joueur.gd" id="2_8wwvb"]
 
 [node name="Raquette" type="CharacterBody2D"]
-position = Vector2(467, 619)
+position = Vector2(494, 624)
+script = ExtResource("2_8wwvb")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(98, -7)
 texture = ExtResource("1_w6mu3")
 
-[node name="Control Joueur" type="Node" parent="."]
+[node name="Control Joueur" type="Node2D" parent="."]
 script = ExtResource("2_8wwvb")

@@ -1,3 +1,4 @@
 res://raquette/raquette.tscn
 res://raquette/skin_raquette_a.tres
 res://breakout/main.tscn
+res://raquette/Control Joueur.gd
