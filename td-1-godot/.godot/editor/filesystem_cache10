@@ -1,0 +1,8 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1765898049
+breakout_pieces.png::CompressedTexture2D::7035533396279067264::1765898049::1765898050::1::::<><><>0<>0<>f3af05b09a8d893528a638711ebf6887<>res://.godot/imported/breakout_pieces.png-c0e415b825bf8572979884c7a52425fc.ctex::
+export_presets.cfg::TextFile::-1::1765897680::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D::3019827131603409164::1765897680::1765897731::1::::<><><>0<>0<>386ffeb4cc158064ba6fba6d49df8235<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://breakout/::1765897680
+label.gd::GDScript::3669408990148934970::1765897680::0::1::::MonLabel<>Label<><>0<>0<><>::
+main.tscn::PackedScene::6339204603664602356::1765897680::0::1::::<><><>0<>0<><>::uid://bsjqvoh70osyc::::res://breakout/label.gd
