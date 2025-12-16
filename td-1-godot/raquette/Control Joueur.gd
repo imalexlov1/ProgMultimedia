@@ -1,19 +1,11 @@
-extends Node2D
+extends Node
 
-@export var speed : int = 400 
 
+# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass 
+	pass # Replace with function body.
 
-func _physics_process(delta: float) -> void:
-	var velocity = Vector2.ZERO # Start with no movement
 
-	if Input.is_action_pressed("p1_right"):
-		velocity.x += 1
-	if Input.is_action_pressed("p1_left"):
-		velocity.x -= 1
-
-	if velocity.length() > 0:
-		velocity = velocity.normalized() * speed
-		
-		position += velocity * delta
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
