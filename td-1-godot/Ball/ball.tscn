@@ -8,8 +8,8 @@ radius = 4.5
 
 [node name="Ball" type="RigidBody2D"]
 gravity_scale = 0.0
-constant_force = Vector2(25, 25)
 script = ExtResource("1_65gad")
+speed = 300.0
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_l4sn5")

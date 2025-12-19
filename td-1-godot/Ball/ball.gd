@@ -1,6 +1,6 @@
 extends RigidBody2D
 
-@export var speed := 450.0
+@export var speed := 100.0
 var velocity: Vector2
 
 # Called when the node enters the scene tree for the first time.

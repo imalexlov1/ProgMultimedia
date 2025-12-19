@@ -1,14 +1,47 @@
-[gd_scene load_steps=3 format=3 uid="uid://rw6br4tptwqj"]
+[gd_scene load_steps=5 format=3 uid="uid://rw6br4tptwqj"]
 
-[ext_resource type="Texture2D" uid="uid://du0icw21drwha" path="res://Wall/wall.tres" id="1_sl42o"]
+[ext_resource type="Texture2D" uid="uid://c7ichbperppwq" path="res://breakout_pieces.png" id="1_sl42o"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jt7bp"]
-size = Vector2(32, 16)
+size = Vector2(1152, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0ctr1"]
+size = Vector2(1, 648)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sl42o"]
+size = Vector2(1, 648)
 
 [node name="Wall" type="StaticBody2D"]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_sl42o")
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(576, -0.5)
 shape = SubResource("RectangleShape2D_jt7bp")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 324)
+shape = SubResource("RectangleShape2D_0ctr1")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+position = Vector2(1152.5, 324)
+shape = SubResource("RectangleShape2D_sl42o")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(576, -5.125)
+scale = Vector2(319.33334, 9.750001)
+texture = ExtResource("1_sl42o")
+region_enabled = true
+region_rect = Rect2(69.338104, 79.19899, 3.615532, 1.3859482)
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(-5, 324)
+scale = Vector2(-3.6666617, 464)
+texture = ExtResource("1_sl42o")
+region_enabled = true
+region_rect = Rect2(69.338104, 79.19899, 3.615532, 1.3859482)
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(1158, 324)
+scale = Vector2(-3.6666617, 464)
+texture = ExtResource("1_sl42o")
+region_enabled = true
+region_rect = Rect2(69.338104, 79.19899, 3.615532, 1.3859482)

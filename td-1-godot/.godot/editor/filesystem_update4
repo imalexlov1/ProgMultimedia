@@ -1,2 +1,6 @@
 res://Ball/ball.tscn
 res://Ball/ball.gd
+res://Wall/wall.tscn
+res://breakout/main.tscn
+res://Raquette/raquette.tscn
+res://Raquette/Control Joueur.gd
