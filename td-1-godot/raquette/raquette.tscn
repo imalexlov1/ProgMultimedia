@@ -10,5 +10,5 @@ position = Vector2(467, 619)
 position = Vector2(114, -7)
 texture = ExtResource("1_w6mu3")
 
-[node name="Control Joueur" type="Node" parent="."]
+[node name="Control Joueur" type="Node2D" parent="."]
 script = ExtResource("2_8wwvb")
