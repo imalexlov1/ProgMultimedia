@@ -4,3 +4,4 @@ res://breakout/main.tscn
 res://Wall/wall.tscn
 res://Wall/wall.tres
 res://Raquette/raquette.tscn
+res://breakout/GameOver.tscn
