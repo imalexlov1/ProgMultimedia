@@ -1,6 +1,5 @@
-[gd_scene load_steps=5 format=3 uid="uid://cwk01klwk3g4c"]
+[gd_scene load_steps=4 format=3 uid="uid://cwk01klwk3g4c"]
 
-[ext_resource type="Script" uid="uid://bsjqvoh70osyc" path="res://breakout/label.gd" id="1_lbe1j"]
 [ext_resource type="PackedScene" uid="uid://b2w6ny7lpo1px" path="res://raquette/raquette.tscn" id="2_qj53f"]
 [ext_resource type="Script" uid="uid://bb6rs76mtrmpx" path="res://raquette/Control Joueur.gd" id="3_kgdm5"]
 [ext_resource type="PackedScene" uid="uid://coitj5pe3jae0" path="res://Ball/ball.tscn" id="3_qj53f"]
@@ -8,34 +7,8 @@
 [node name="Node2D" type="Node2D"]
 position = Vector2(576, 320)
 
-[node name="Label" type="Label" parent="."]
-offset_right = 45.0
-offset_bottom = 23.0
-text = "Hello "
-script = ExtResource("1_lbe1j")
-metadata/_edit_use_anchors_ = true
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Label"]
-
-[node name="RichTextLabel" type="RichTextLabel" parent="Label"]
-layout_mode = 0
-offset_left = 195.0
-offset_top = -11.0
-offset_right = 314.0
-offset_bottom = 64.0
-text = "C'est quoi ça ? "
-
-[node name="Label2" type="Label" parent="."]
-offset_left = -23.0
-offset_top = -131.0
-offset_right = 52.0
-offset_bottom = -108.0
-text = "HIYOUUU"
-script = ExtResource("1_lbe1j")
-metadata/_custom_type_script = "uid://bsjqvoh70osyc"
-
 [node name="Raquette" parent="." instance=ExtResource("2_qj53f")]
-position = Vector2(36, 166)
+position = Vector2(5, 238)
 script = ExtResource("3_kgdm5")
 
 [node name="Ball" parent="." instance=ExtResource("3_qj53f")]
