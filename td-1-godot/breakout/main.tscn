@@ -5,10 +5,10 @@
 [ext_resource type="PackedScene" uid="uid://coitj5pe3jae0" path="res://Ball/ball.tscn" id="3_qj53f"]
 
 [node name="Node2D" type="Node2D"]
-position = Vector2(576, 320)
 
 [node name="Raquette" parent="." instance=ExtResource("2_qj53f")]
-position = Vector2(5, 238)
+position = Vector2(580, 598)
 script = ExtResource("3_kgdm5")
 
 [node name="Ball" parent="." instance=ExtResource("3_qj53f")]
+position = Vector2(570, 299)
