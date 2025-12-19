@@ -1,3 +1,6 @@
 res://raquette/raquette.tscn
 res://raquette/Control Joueur.gd
 res://breakout/main.tscn
+res://Wall/wall.tscn
+res://Wall/wall.tres
+res://Raquette/raquette.tscn
