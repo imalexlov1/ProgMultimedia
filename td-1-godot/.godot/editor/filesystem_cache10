@@ -1,17 +1,20 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1766135717
-breakout_pieces.png::CompressedTexture2D::7035533396279067264::1766133821::1766135718::1::::<><><>0<>0<>f3af05b09a8d893528a638711ebf6887<>res://.godot/imported/breakout_pieces.png-c0e415b825bf8572979884c7a52425fc.ctex::
-export_presets.cfg::TextFile::-1::1766133821::0::1::::<><><>0<>0<><>::
-icon.svg::CompressedTexture2D::3019827131603409164::1766133821::1766133821::1::::<><><>0<>0<>386ffeb4cc158064ba6fba6d49df8235<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://Ball/::1766135717
-ball.tscn::PackedScene::5773171494450924137::1766133821::0::1::::<><><>0<>0<><>::uid://exf7lkwd43ve::::res://Ball/Skin_Ball.tres
-Skin_Ball.tres::AtlasTexture::328597387473950358::1766135717::0::1::::<><><>0<>0<><>::uid://c7ichbperppwq::::res://breakout_pieces.png
-::res://breakout/::1766135479
-main.tscn::PackedScene::6339204603664602356::1766135479::0::1::::<><><>0<>0<><>::uid://b2w6ny7lpo1px::::res://raquette/raquette.tscn<>uid://bb6rs76mtrmpx::::res://raquette/Control Joueur.gd<>uid://coitj5pe3jae0::::res://Ball/ball.tscn
-::res://Raquette/::1766135717
-Control Joueur.gd::GDScript::2521671300081744061::1766134642::0::1::::<>Node2D<><>0<>0<><>::
-raquette.tscn::PackedScene::4328842525120374845::1766135479::0::1::::<><><>0<>0<><>::uid://dqthwrmen05d5::::res://Raquette/skin_raquette_a.tres<>uid://bb6rs76mtrmpx::::res://Raquette/Control Joueur.gd
-skin_raquette_a.tres::AtlasTexture::8321971944664966932::1766135717::0::1::::<><><>0<>0<><>::uid://c7ichbperppwq::::res://breakout_pieces.png
-::res://Wall/::1766135717
-wall.tres::AtlasTexture::6547034554101212763::1766135677::0::1::::<><><>0<>0<><>::
-wall.tscn::PackedScene::1240511603585902249::1766135511::0::1::::<><><>0<>0<><>::
+::res://::1766138025
+breakout_pieces.png::CompressedTexture2D::7035533396279067264::1766137975::1766137975::1::::<><><>0<>0<>f3af05b09a8d893528a638711ebf6887<>res://.godot/imported/breakout_pieces.png-c0e415b825bf8572979884c7a52425fc.ctex::
+export_presets.cfg::TextFile::-1::1766137975::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D::3019827131603409164::1766137975::1766137975::1::::<><><>0<>0<>386ffeb4cc158064ba6fba6d49df8235<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://Ball/::1766137975
+ball.tscn::PackedScene::5773171494450924137::1766137975::0::1::::<><><>0<>0<><>::uid://exf7lkwd43ve::::res://Ball/Skin_Ball.tres
+Skin_Ball.tres::AtlasTexture::328597387473950358::1766137975::0::1::::<><><>0<>0<><>::uid://c7ichbperppwq::::res://breakout_pieces.png
+::res://breakout/::1766137975
+GameOver.tscn::PackedScene::1028435690593525275::1766137975::0::1::::<><><>0<>0<><>::
+main.tscn::PackedScene::6339204603664602356::1766137975::0::1::::<><><>0<>0<><>::uid://b2w6ny7lpo1px::::res://Raquette/raquette.tscn<>uid://bb6rs76mtrmpx::::res://Raquette/Control Joueur.gd<>uid://coitj5pe3jae0::::res://Ball/ball.tscn<>uid://rw6br4tptwqj::::res://Wall/wall.tscn
+::res://Fosse/::1766137975
+fosse.tscn::PackedScene::9117505428058957831::1766137975::0::1::::<><><>0<>0<><>::
+::res://Raquette/::1766137975
+Control Joueur.gd::GDScript::2521671300081744061::1766137975::0::1::::<>Node2D<><>0<>0<><>::
+raquette.tscn::PackedScene::4328842525120374845::1766137975::0::1::::<><><>0<>0<><>::uid://dqthwrmen05d5::::res://Raquette/skin_raquette_a.tres<>uid://bb6rs76mtrmpx::::res://Raquette/Control Joueur.gd
+skin_raquette_a.tres::AtlasTexture::8321971944664966932::1766137975::0::1::::<><><>0<>0<><>::uid://c7ichbperppwq::::res://breakout_pieces.png
+::res://Wall/::1766137975
+wall.tres::AtlasTexture::8615138873630833022::1766137975::0::1::::<><><>0<>0<><>::uid://c7ichbperppwq::::res://breakout_pieces.png
+wall.tscn::PackedScene::1240511603585902249::1766137975::0::1::::<><><>0<>0<><>::uid://du0icw21drwha::::res://Wall/wall.tres
