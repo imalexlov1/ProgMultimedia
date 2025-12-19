@@ -1,5 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://coitj5pe3jae0"]
+[gd_scene load_steps=4 format=3 uid="uid://coitj5pe3jae0"]
 
+[ext_resource type="Script" uid="uid://yjdgkv4x4j8y" path="res://Ball/ball.gd" id="1_65gad"]
 [ext_resource type="Texture2D" uid="uid://exf7lkwd43ve" path="res://Ball/Skin_Ball.tres" id="1_l4sn5"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_l4sn5"]
@@ -7,7 +8,8 @@ radius = 4.5
 
 [node name="Ball" type="RigidBody2D"]
 gravity_scale = 0.0
-linear_velocity = Vector2(50, 50)
+constant_force = Vector2(25, 25)
+script = ExtResource("1_65gad")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_l4sn5")
