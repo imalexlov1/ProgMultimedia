@@ -1,2 +1,9 @@
-res://Raquette/raquette.tscn
+res://Brick/brick.tscn
+res://Brick/brick.gd
+res://breakout/main.tscn
 res://Ball/ball.gd
+res://Fosse/fosse.gd
+res://Fosse/fosse.tscn
+res://Fosse/collision_shape_2d.gd
+res://breakout/GameOver.tscn
+res://breakout/button.gd

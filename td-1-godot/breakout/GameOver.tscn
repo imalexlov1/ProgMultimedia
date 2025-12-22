@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://owggkrs38acp"]
+[gd_scene load_steps=2 format=3 uid="uid://owggkrs38acp"]
+
+[ext_resource type="Script" uid="uid://bie7f6cvj7sgh" path="res://breakout/button.gd" id="1_p0mj6"]
 
 [node name="GameOver" type="Control"]
 layout_mode = 3
@@ -34,6 +36,17 @@ text = "Vous avez perdu
 "
 
 [node name="Button" type="Button" parent="."]
-layout_mode = 0
-offset_right = 8.0
-offset_bottom = 8.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.497
+anchor_top = 0.555
+anchor_right = 0.497
+anchor_bottom = 0.555
+offset_left = -39.544006
+offset_top = -15.640015
+offset_right = 40.455994
+offset_bottom = 15.359985
+text = "Rejouer ?"
+script = ExtResource("1_p0mj6")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
