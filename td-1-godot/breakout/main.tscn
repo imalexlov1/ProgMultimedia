@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://cwk01klwk3g4c"]
+[gd_scene load_steps=8 format=3 uid="uid://cwk01klwk3g4c"]
 
 [ext_resource type="PackedScene" uid="uid://b2w6ny7lpo1px" path="res://Raquette/raquette.tscn" id="2_qj53f"]
 [ext_resource type="Script" uid="uid://bb6rs76mtrmpx" path="res://Raquette/Control Joueur.gd" id="3_kgdm5"]
@@ -7,8 +7,23 @@
 [ext_resource type="PackedScene" uid="uid://d1cojc0xijq30" path="res://Brick/brick.tscn" id="5_p1e6k"]
 [ext_resource type="PackedScene" uid="uid://d25t8ns7egokl" path="res://Fosse/fosse.tscn" id="6_l61sf"]
 
+[sub_resource type="GDScript" id="GDScript_l61sf"]
+script/source = "extends Node2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
 [node name="Node2D" type="Node2D"]
 position = Vector2(0, -1)
+script = SubResource("GDScript_l61sf")
 
 [node name="Raquette" parent="." instance=ExtResource("2_qj53f")]
 position = Vector2(580, 598)
