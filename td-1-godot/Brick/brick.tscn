@@ -4,15 +4,18 @@
 [ext_resource type="Texture2D" uid="uid://c7ichbperppwq" path="res://breakout_pieces.png" id="1_wurha"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_t5b8g"]
-size = Vector2(32, 16)
+size = Vector2(47, 27)
 
 [node name="Brick" type="StaticBody2D" groups=["brick"]]
 script = ExtResource("1_t5b8g")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(7.75, 5.5)
+scale = Vector2(1.5, 1.6875)
 texture = ExtResource("1_wurha")
 region_enabled = true
 region_rect = Rect2(264.34174, 7.652937, 31.044983, 16.018307)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(7.5, 5.5)
 shape = SubResource("RectangleShape2D_t5b8g")

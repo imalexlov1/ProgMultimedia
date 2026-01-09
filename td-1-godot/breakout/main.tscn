@@ -10,12 +10,21 @@
 [sub_resource type="GDScript" id="GDScript_l61sf"]
 script/source = "extends Node2D
 
+var nombre_briques : int = 0
 
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
+	nombre_briques = get_tree().get_nodes_in_group(\"brick\").size()
+	print(\"Nombre de briques au départ : \", nombre_briques)
 
-
+func brique_cassee():
+	nombre_briques -= 1
+	
+	if nombre_briques <= 0:
+		gagner_partie()
+		
+func gagner_partie():
+	get_tree().change_scene_to_file(\"res://breakout/YouWin.tscn\")
+	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
@@ -34,35 +43,11 @@ position = Vector2(570, 299)
 
 [node name="Wall" parent="." instance=ExtResource("4_kgdm5")]
 
-[node name="Brick" parent="." instance=ExtResource("5_p1e6k")]
-position = Vector2(553, 143)
-
-[node name="Brick2" parent="." instance=ExtResource("5_p1e6k")]
-position = Vector2(490, 143)
-
-[node name="Brick3" parent="." instance=ExtResource("5_p1e6k")]
-position = Vector2(521, 143)
-
-[node name="Brick4" parent="." instance=ExtResource("5_p1e6k")]
-position = Vector2(585, 143)
-
-[node name="Brick5" parent="." instance=ExtResource("5_p1e6k")]
-position = Vector2(426, 143)
-
-[node name="Brick6" parent="." instance=ExtResource("5_p1e6k")]
-position = Vector2(458, 143)
-
-[node name="Brick7" parent="." instance=ExtResource("5_p1e6k")]
-position = Vector2(681, 143)
-
 [node name="Brick8" parent="." instance=ExtResource("5_p1e6k")]
-position = Vector2(649, 143)
+position = Vector2(872, 155)
 
 [node name="Brick9" parent="." instance=ExtResource("5_p1e6k")]
-position = Vector2(617, 143)
-
-[node name="Brick10" parent="." instance=ExtResource("5_p1e6k")]
-position = Vector2(713, 143)
+position = Vector2(600, 224)
 
 [node name="Area2D" parent="." instance=ExtResource("6_l61sf")]
 position = Vector2(577, 769)

@@ -16,4 +16,7 @@ func _physics_process(delta):
 		
 		var collider = collision.get_collider()
 		if collider and collider.is_in_group("brick"):
+			var main_scene = get_tree().current_scene
+			if main_scene.has_method("brique_cassee"):
+				main_scene.brique_cassee()
 			collider.queue_free()  # détruit la brique
